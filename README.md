@@ -17,9 +17,24 @@ Ideal para organizar acervos grandes de imagens de forma rápida, inteligente e 
 
 ## 🚀 Como usar
 
-### 1. Clone o repositório e entre na pasta
+### 🔹 Instalação manual (recomendada para iniciantes)
 
 ```bash
+# Clone o repositório
 git clone https://github.com/seu-usuario/wallpaper-renamer-ai.git
 cd wallpaper-renamer-ai
+
+# Crie o ambiente virtual
+python -m venv venv
+
+# Ative o ambiente virtual
+source venv/bin/activate  # (Linux/macOS)
+# venv\Scripts\activate   # (Windows, use no terminal CMD)
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Coloque suas imagens na pasta 'wallpapers/'
+# E execute o script
+python rename_wallpapers.py
 ```
