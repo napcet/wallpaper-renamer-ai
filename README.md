@@ -34,7 +34,9 @@ source venv/bin/activate  # (Linux/macOS)
 # Instale as dependências
 pip install -r requirements.txt
 
-# Coloque suas imagens na pasta 'wallpapers/'
-# E execute o script
+# Crie as pastas necessárias (caso ainda não existam)
+mkdir -p wallpapers renomeados
+
+# Execute o script
 python rename_wallpapers.py
 ```
